@@ -1,0 +1,187 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+/* Header area start */
+.header_area{
+    padding: 20px 0;
+    background-color: gray;
+    overflow: hidden;
+}
+.logo{
+    float: left;
+    width: 30%;
+}
+.mainmenu{
+    float: left;
+    width: 70%;
+    text-align: right;
+}
+.mainmenu ul{
+    list-style: none;
+}
+.mainmenu ul li{
+    display: inline-block;
+}
+.mainmenu ul li a{
+    display: inline-block;
+    text-decoration: none; 
+    color: #000;
+}
+.logo h1 {
+    font-size: 25px;
+    color: red;
+  }
+  .mainmenu ul li {
+    margin-top: 5px;
+    margin-left: 20px;
+    text-align: right;
+  }
+/* Header area Stop */
+/* content area Start */
+.content_area{
+    background-image: url(../img/bg.webp);
+    padding: 150px 0;
+    text-align: center;
+}
+.content_area h2{
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.content_area p{
+    width: 60%;
+    margin: 0 auto;
+}
+.content_area a{
+    display: inline-block;
+    padding: 10px 15px;
+    background: #000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px 0;
+    margin-top: 10px;
+    transition: 0.6s;
+}
+.content_area a:hover{
+    background-color: green;
+}
+/* content area Stop */
+/* Service Area start */
+.service_area{padding: 30px 0;}
+.service_title{
+    margin-bottom: 50px;
+}
+.service_title h2{
+    text-align: center;
+    font-size: 30px;
+}
+  .service_card_one {
+    float: left;
+    width: 33.333333%;
+    text-align: center;
+  }
+  .service_card_one h4 {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  .service_card_one p {
+    margin-bottom: 20px;
+  }
+  .service_card_one a {
+    text-decoration: none;
+    background: red;
+    color: #fff;
+    padding: 6px 12px;
+    display: inline-block;
+    border-radius: 5px;
+  }
+.service_card_one img{
+    width: 50px;
+  }
+.service_card_one .btns {
+	background: green;
+}
+.service_card{overflow: hidden;}
+/* Service Area stop */
+
+
+.about_left {
+    float: left;
+    width: 50%;
+    margin-top: 60px;
+  }
+  .about_right {
+    float: left;
+    width: 47%;
+    margin-left: 3%;
+  }
+  .about_right img {
+    width: 100%;
+  }
+  .about_area {
+    padding: 50px 0;
+    background: #eee;
+    overflow: hidden;
+  }
+  .about_left h2 {
+    margin-bottom: 20px;
+  }
+  .about_left p {
+    margin-bottom: 15px;
+    text-align: justify;
+  }
+  .about_left a {
+    text-decoration: navajowhite;
+    color: green;
+  }
+
+  
+.contact_area {
+    padding: 50px 0;
+    overflow: hidden;
+  }
+  .contact_left {
+    float: left;
+    width: 40%;
+    margin-top: 50px;
+  }
+  .contact_right {
+    float: left;
+    width: 60%;
+  }
+  .contact_left h4 {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  .contact_left p {
+    text-align: justify;
+    width: 90%;
+  }
+  .contact_right input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  .contact_right span {
+    margin-bottom: 10px;
+    display: inline-block;
+  }
+  .contact_right input[type="submit"] {
+    background: black;
+    color: #fff;
+    border: none;
+    padding: 15px 0;
+    display: inline-block;
+    border-radius: 5px;
+  }
+  .copyright_area {
+    background: gray;
+    color: aqua;
+    padding: 26px 0;
+    text-align: center;
+  }
